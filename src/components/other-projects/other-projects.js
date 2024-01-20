@@ -2,195 +2,121 @@ import * as React from "react"
 import Parser from 'html-react-parser';
 import "./other-projects.scss"
 
-// - name: Crowd DJ
-//   url: https://github.com/crowddj/crowddj-react
-//   code: https://github.com/crowddj/crowddj-react
-//   description:
-//     A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-//     <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
-//   used:
-//     - thing: React
-//     - thing: Sass
-//     - thing: Firebase
-//     - thing: Spotify API
-
 const otherProjectsData = [
   {
-    "name": "Surf Videos",
-    "url": "https://github.com/bchiang7/Surf-Videos",
-    "code": "https://github.com/bchiang7/Surf-Videos",
-    "description": "Small React project created during an interview process to browse and search surf videos via the YouTube API.",
+    "name": "GuessBuzz",
+    "url": "https://github.com/skavinvarnan/whistler-ios",
+    "description": "I developed a score prediction app for the IPL as a hobby project during the 2018 season. This app is available on both iOS and Android platforms. It allows users to make score predictions for IPL matches, adding an exciting and interactive element to the cricket-watching experience. You can find the open-source code at <a class='underline-link' href='https://github.com/skavinvarnan/whistler-ios'>Github</a>.",
     "used": [
-      {"thing": "JavaScript"},
-      {"thing": "React"},
-      {"thing": "React Router"},
-      {"thing": "Axios"},
-      {"thing": "YouTube API"}
-    ]
-  },
-  {
-    "name": "Halcyon Theme",
-    "url": "https://bchiang7.github.io/halcyon-site/",
-    "code": "https://github.com/bchiang7/halcyon-site",
-    "description": "A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class='underline-link' href='https://packagecontrol.io/packages/Halcyon%20Theme'>Package Control</a>, <a class='underline-link' href='https://atom.io/themes/halcyon-syntax'>Atom Package Manager</a>, <a class='underline-link' href='https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode'>Visual Studio Marketplace</a>, and <a class='underline-link' href='https://www.npmjs.com/package/hyper-halcyon-theme'>NPM</a>.",
-    "used": [
-      {"thing": "Gatsby"},
-      {"thing": "Sublime Text"},
-      {"thing": "Atom"},
-      {"thing": "VS Code"},
-      {"thing": "iTerm2"},
-      {"thing": "Hyper"}
-    ]
-  },
-  {
-    "name": "Lonely Planet DBMS",
-    "url": "https://github.com/bchiang7/CS3200-Project",
-    "code": "https://github.com/bchiang7/CS3200-Project",
-    "description": "Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class='underline-link' href='https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777' target='_blank'>Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.",
-    "used": [
-      {"thing": "Python"},
-      {"thing": "MySQL"},
-      {"thing": "Flask"},
-      {"thing": "HTML"},
-      {"thing": "CSS"},
-      {"thing": "JavaScript"}
-    ]
-  },
-  {
-    "name": "myNEU Redesign",
-    "url": "https://bchiang7.github.io/Redesign-myNEU/",
-    "code": "https://github.com/bchiang7/Redesign-myNEU",
-    "description": "myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.",
-    "used": [
-      {"thing": "Jekyll"},
-      {"thing": "HTML"},
-      {"thing": "SCSS"},
-      {"thing": "JavaScript"}
-    ]
-  },
-  {
-    "name": "Crowd DJ",
-    "url": "https://github.com/crowddj/crowddj-react",
-    "code": "https://github.com/crowddj/crowddj-react",
-    "description": "A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br> <a class='small' href='http://projects.hackbeanpot.com/2017-projects.html'>🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>",
-    "used": [
-      {"thing": "React"},
-      {"thing": "Sass"},
+      {"thing": "Node.js"},
       {"thing": "Firebase"},
-      {"thing": "Spotify API"}
+      {"thing": "iOS Native"},
+      {"thing": "Android Native"},
+      {"thing": "MongoDB"},
+      {"thing": "Redis"},
+      {"thing": "Docker"},
+      {"thing": "Digital Ocean"},
+      {"thing": "Swift"},
+      {"thing": "Kotlin"},
     ]
   },
   {
-    "name": "Weather Widget",
-    "url": "http://quiet-dusk-89245.herokuapp.com/",
-    "code": "https://github.com/bchiang7/DemoWebApp",
-    "description": "A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.",
+    "name": "Covidstat",
+    "url": "https://www.linkedin.com/posts/kavin-varnan-08083229_covid-covid19-dashboard-activity-6668032584783663104-cRzB?utm_source=share&utm_medium=member_desktop",
+    "description": "I've developed an elegant web application that displays COVID-19 statistics. The website dynamically retrieves data from reputable sources such as John Hopkins University and government websites to ensure accuracy. What sets it apart is the inclusion of a <a class='underline-link' href='https://graphql.org'>GraphQL</a> endpoint, providing a public API for seamless data consumption by anyone interested. Explore the <a class='underline-link' href='https://github.com/COVID19-SARS-CoV-2/web-covid-api'>API Documentation</a> for further details. This comprehensive tool not only offers insightful statistics but also demonstrates a commitment to transparency and accessibility in sharing crucial information about the pandemic.",
+    "used": [
+      {"thing": "Node.js"},
+      {"thing": "Docker"},
+      {"thing": "MongoDB"},
+      {"thing": "GraphQL"},
+      {"thing": "Redis"},
+      {"thing": "Digital Ocean"},
+      {"thing": "API"},
+      {"thing": "Open-Source"},
+      {"thing": "React"},
+    ]
+  },
+  {
+    "name": "Gallery For Lollipop",
+    "url": "https://play.google.com/store/apps/details?id=com.gallery.lollipop",
+    "description": "When Google introduced Google Photos, they unexpectedly removed the widely-used Gallery app from Android with the release of Android Lollipop. Leveraging the open-source code from Android, I took it upon myself to recreate and revive the Gallery app, ensuring users could continue to enjoy a familiar and essential feature. Now, you can experience the convenience and functionality of the Gallery app once again, thanks to this recreation.",
+    "used": [
+      {"thing": "Android Native"},
+      {"thing": "Java"},
+      {"thing": "Open-Source"},
+      {"thing": "AdMob"},
+    ]
+  },
+  {
+    "name": "NHS Covid App",
+    "url": "https://x.com/skvarnan/status/1242406271942144000",
+    "description": "At the onset of the pandemic, widespread panic ensued, and there was a noticeable absence of readily accessible guidelines. In collaboration with the NHS, I contributed to the creation of an app designed to streamline the dissemination of crucial guidelines. This innovative solution not only facilitated easy updates for the NHS but also addressed the challenge of limited internet connectivity within hospitals. The app's offline functionality ensured that vital information remained accessible, even in areas with restricted internet access, supporting healthcare professionals in their critical work during challenging circumstances.",
+    "used": [
+      {"thing": "Android Native"},
+      {"thing": "iOS Native"},
+      {"thing": "Node.js"},
+      {"thing": "Strapi"},
+      {"thing": "MongoDB"},
+      {"thing": "Docker"},
+      {"thing": "GraphQL"},
+      {"thing": "Digital Ocean"},
+      {"thing": "Swift"},
+      {"thing": "Kotlin"},
+    ]
+  },
+  {
+    "name": "CrossPlatform AES",
+    "url": "https://github.com/skavinvarnan/Cross-Platform-AES",
+    "description": "I've developed an open-source library for AES-256 encryption and decryption of strings, designed to seamlessly integrate across Android, iOS, and Javascript platforms. This versatile library enhances data security, offering a robust solution for safeguarding sensitive information. Whether you're working on Android, iOS, or web applications, this library provides a reliable and consistent encryption and decryption mechanism for strings, ensuring data confidentiality and integrity in your projects. <br> <a class='small' href='https://github.com/skavinvarnan/Cross-Platform-AES'>🏆 100+ Starts on Github 🏆</a>",
+    "used": [
+      {"thing": "Kotlin"},
+      {"thing": "Swift"},
+      {"thing": "JavaScript"},
+    ]
+  },
+  {
+    "name": "Social Evening",
+    "url": "https://github.com/skavinvarnan/SocialEvening",
+    "description": "This was an interview project<br><br>I successfully developed and documented the entire app in an impressive timeframe of less than seven days. This rapid turnaround not only showcases my efficiency in app development but also underscores the meticulous attention given to detailed documentation. The result is a well-crafted application, ready to make an impact with its functionality and comprehensive supporting documentation.",
     "img": "weather",
     "used": [
-      {"thing": "JavaScript"},
-      {"thing": "CSS"},
+      {"thing": "Android Native"},
+      {"thing": "Kotlin"},
       {"thing": "Node.js"},
-      {"thing": "Express"},
+      {"thing": "Parse Server"},
+      {"thing": "PostgreSQL"},
       {"thing": "Heroku"},
-      {"thing": "OpenWeatherMap API"},
-      {"thing": "Google Maps API"}
     ]
   },
   {
-    "name": "Personal Website V2",
-    "url": "https://bchiang7.github.io/v2",
-    "code": "https://github.com/bchiang7/v2",
-    "description": "Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.",
+    "name": "2048 Terminal",
+    "url": "https://github.com/skavinvarnan/2048",
+    "description": "Experience a captivating 2048 game right in your terminal. Immerse yourself in the challenge of this numeric puzzle, all within the simplicity of a command-line interface. Enjoy the strategic thrill as you merge tiles to reach the elusive 2048. Ready for a brain-teasing adventure? Play the terminal-based 2048 game now!",
     "used": [
-      {"thing": "Jekyll"},
-      {"thing": "Handlebars"},
-      {"thing": "SCSS"},
+      {"thing": "Shell"},
       {"thing": "JavaScript"},
-      {"thing": "Github Pages"}
     ]
   },
   {
-    "name": "React Resume",
-    "url": "https://bchiang7.github.io/react-profile/",
-    "code": "https://github.com/bchiang7/react-profile/",
-    "description": "An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class='underline-link' href='https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq'>simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!",
+    "name": "CIC Calculator",
+    "url": "https://github.com/skavinvarnan/cic-flutter",
+    "description": "Explore an easy-to-use compound interest calculator. This straightforward tool allows you to effortlessly calculate compound interest, making financial planning a breeze. Crunch numbers with simplicity and precision to get a clear understanding of your savings and investments. Try out our user-friendly compound interest calculator for hassle-free financial calculations!",
     "used": [
-      {"thing": "JavaScript"},
-      {"thing": "React"},
-      {"thing": "CSS"}
-    ]
-  },
-  {
-    "name": "CourseSource",
-    "url": "http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login",
-    "code": "https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project",
-    "description": "A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.",
-    "used": [
-      {"thing": "HTML"},
-      {"thing": "CSS"},
-      {"thing": "JavaScript"},
-      {"thing": "Node.js"},
-      {"thing": "Angular"},
-      {"thing": "Express"},
-      {"thing": "MongoDB"}
-    ]
-  },
-  {
-    "name": "NU Women in Tech",
-    "url": "http://nuwit.ccs.neu.edu/",
-    "code": "https://github.com/nuwit/website",
-    "description": "Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.",
-    "used": [
-      {"thing": "Jekyll"},
-      {"thing": "HTML"},
-      {"thing": "CSS"},
-      {"thing": "JavaScript"},
-      {"thing": "Bootstrap"}
-    ]
-  },
-  {
-    "name": "Fontipsums",
-    "url": "https://bchiang7.github.io/fontipsums",
-    "code": "https://github.com/bchiang7/fontipsums",
-    "description": "As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.",
-    "used": [
-      {"thing": "HTML"},
-      {"thing": "SCSS"}
+      {"thing": "Flutter"},
+      {"thing": "Dart"},
+      {"thing": "Android"},
+      {"thing": "iOS"},
+      {"thing": "Web"},
     ]
   },
   {
     "name": "Personal Website V1",
-    "url": "https://bchiang7.github.io/v1",
-    "code": "https://github.com/bchiang7/website_2015/",
-    "description": "My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.",
+    "url": "https://github.com/skavinvarnan/skvarnan",
+    "description": "Craft a stunning personal website that highlights your portfolio and achievements. Showcase your work in a professionally designed space tailored to reflect your unique talents. Let's build an online presence that leaves a lasting impression. Elevate your personal brand with a website that speaks volumes about your skills and accomplishments.",
     "used": [
-      {"thing": "HTML"},
-      {"thing": "CSS"},
-      {"thing": "Bootstrap"},
+      {"thing": "React"},
+      {"thing": "Gastby"},
       {"thing": "JavaScript"},
-      {"thing": "jQuery"}
-    ]
-  },
-  {
-    "name": "One Card For All",
-    "url": "http://onecardforall.org",
-    "description": "MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class='underline-link' href='http://us.mullenlowe.com/work/one-card-for-all/' target='_blank'>video</a> describing the project.",
-    "used": [
-      {"thing": "HTML"},
-      {"thing": "SCSS"},
-      {"thing": "JavaScript"},
-      {"thing": "jQuery"}
-    ]
-  },
-  {
-    "name": "JetBlue HumanKinda",
-    "url": "https://us.mullenlowe.com/work/humankinda/",
-    "description": "Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how 'HumanKinda' you are. Learn more about this project <a class='underline-link' href='http://us.mullenlowe.com/work/humankinda/' target='_blank'>here</a>.",
-    "used": [
-      {"thing": "HTML"},
-      {"thing": "CSS"},
-      {"thing": "JavaScript"},
-      {"thing": "jQuery"}
     ]
   }
 ]

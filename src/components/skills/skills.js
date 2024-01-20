@@ -2,14 +2,14 @@ import * as React from "react"
 import "./skills.scss"
 
 const skillsData = {
-  "languagesTitle": "Languages",
-  "languages": ["JavaScript (ES6)", "TypeScript", "HTML", "CSS/Sass", "Python", "SQL", "R"],
-  "frameworksTitle": "Frameworks",
-  "frameworks": ["Ember & Glimmer", "React", "Jekyll", "Node", "D3", "Wordpress", "Timber"],
-  "toolsTitle": "Tools",
-  "tools": ["Bash", "Git & Github", "Gulp & Grunt", "Chrome DevTools", "Postman", "MongoDB"],
-  "designTitle": "Design",
-  "design": ["Sketch", "InDesign", "InVision", "Prototyping", "Wireframing", "User Testing"],
+  "languagesTitle": "Frontend",
+  "languages": ["Flutter", "Dart", "Android", "Kotlin"],
+  "frameworksTitle": "Backend",
+  "frameworks": ["Node.js", "Firebase", "Python", "Java - Spring"],
+  "toolsTitle": "Servers",
+  "tools": ["Scaling", "Serverless", "Microservice", "Monolith"],
+  "designTitle": "Cloud",
+  "design": ["Firebase", "Google Cloud", "AWS", "Digital Ocean"],
 }
 
 const Skills = () => (
@@ -24,19 +24,19 @@ const Skills = () => (
           </ul>
         </div>
         <div className="skillz__category">
-          <div className="skillz__category__label">Frameworks</div>
+          <div className="skillz__category__label">{skillsData.frameworksTitle}</div>
           <ul>
             {skillsData.frameworks.map((data) => <li className="skillz__category__item">{data}</li>)}
           </ul>
         </div>
         <div className="skillz__category">
-          <div className="skillz__category__label">Tools</div>
+          <div className="skillz__category__label">{skillsData.toolsTitle}</div>
           <ul>
             {skillsData.tools.map((data) => <li className="skillz__category__item">{data}</li>)}
           </ul>
         </div>
         <div className="skillz__category">
-          <div className="skillz__category__label">Design</div>
+          <div className="skillz__category__label">{skillsData.designTitle}</div>
           <ul>
             {skillsData.design.map((data) => <li className="skillz__category__item">{data}</li>)}
           </ul>

@@ -3,23 +3,16 @@ import * as React from "react"
 
 const backgroundData = {
   title: "Background",
-  part1: "I'm currently an Engineer at ",
-  part2: "Upstatement",
-  part2Href: "https://www.upstatement.com/",
-  part3: " building things for the web with some awesome people. I recently graduated from ",
-  part4: "Northeastern University",
-  part4Href: "https://www.ccis.northeastern.edu/",
-  part5: " after completing three awesome six-month co-ops at ",
-  part6: "MullenLowe U.S. ",
-  part6Href: "https://us.mullenlowe.com/",
-  part7: "Starry",
-  part7Href: "https://starry.com/",
-  part8: ", and ",
-  part9: "Apple Music",
-  part9Href: "https://www.apple.com/music/",
-  line2: "As a software engineer, I enjoy bridging the gap between engineering and design - combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.",
+  part1: "Currently, I serve as the Consulting CTO at ",
+  part2: "Talking Yak",
+  part2Href: "https://talkingyak.com/",
+  part3: " where I lead a team in developing innovative tech solutions.",
+  line2: "As a hands-on full-stack software engineer, I adeptly bridge the gap between backend and frontend teams, crafting robust architectures in the process. I consistently stay abreast of the latest developments in my field, diligently seeking opportunities to learn and explore emerging technologies.",
   line3Part1: "When I'm not in front of a computer screen",
-  line3Part2: ", I'm probably snowboarding, cruising around on my penny board, or crossing off another item on my bucket list.",
+  line3Part2: ", you'll likely find me engaging in a game of badminton, exploring new cuisines, or delving into spontaneous DIY projects—all of which I enjoy sharing on my ",
+  line3Part3: "YouTube channel",
+  line3Part3Href: "https://www.youtube.com/@kavindiy",
+  line3Part4: ".",
 };
 const Background = () => (
   <section className="section background">
@@ -29,18 +22,14 @@ const Background = () => (
         {backgroundData.part1}
         <a className="underline-link" href={backgroundData.part2Href} target="_blank" rel="noreferrer">{backgroundData.part2}</a>
         {backgroundData.part3}
-        <a className="underline-link" href={backgroundData.part4Href} target="_blank" rel="noreferrer">{backgroundData.part4}</a>
-        {backgroundData.part5}
-        <a className="underline-link" href={backgroundData.part6Href} target="_blank" rel="noreferrer">{backgroundData.part6}</a>,
-        <a className="underline-link" href={backgroundData.part7Href} target="_blank" rel="noreferrer">{backgroundData.part7}</a>
-        {backgroundData.part8}
-        <a className="underline-link" href={backgroundData.part9Href} target="_blank" rel="noreferrer">{backgroundData.part9}</a>.
       </p>
       <p>
         {backgroundData.line2}
       </p>
       <p>
         <strong>{backgroundData.line3Part1}</strong>{backgroundData.line3Part2}
+        <a className="underline-link" href={backgroundData.line3Part3Href} target="_blank" rel="noreferrer">{backgroundData.line3Part3}</a>
+        {backgroundData.line3Part4}
       </p>
     </div>
   </section>

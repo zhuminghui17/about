@@ -5,18 +5,18 @@ import "./intro.scss"
 const introData = {
   title: "Hello! ",
   beforeName: "I'm ",
-  name: "Brittany Chiang",
-  afterName: ", a design-minded front-end software engineer focused on building beautiful interfaces & experiences ",
+  name: "Kavin Varnan",
+  afterName: ", an expert in top-tier mobile/web app architecture & robust backend servers.",
   contact: "Get in touch ",
-  email: "brittany.chiang@gmail.com",
-  mailTo: "mailto:brittany.chiang@gmail.com",
+  email: "kavin@varnan.me",
+  mailTo: "mailto:kavin@varnan.me",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
-  const onMouseOver = event => {
+  const onMouseOver = _ => {
     setIsHovering(true);
   };
-  const onMouseOut = event => {
+  const onMouseOut = _ => {
     setIsHovering(false);
   };
 
@@ -31,7 +31,7 @@ const Intro = () => {
 
   return <header className="intro">
     <h1 className="intro__hello">{introData.title}
-      <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut}></span>
+      <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut} onFocus={onMouseOver} onBlur={onMouseOut} role="button" tabIndex={0} aria-label="wave hand"></span>
     </h1>
 
     <h2 className="intro__tagline">{introData.beforeName}

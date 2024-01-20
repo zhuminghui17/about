@@ -13,7 +13,7 @@ const FeaturedProjects = () => (
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://blistabloc.com/" rel="noreferrer" target="_blank">blistabloc</a>
+            <a href="https://blistabloc.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
           </div>
           <p>Custom wordpress theme built with Timber and Woocommerce for blistabloc, the only reactive shoe insert that
             prevents
@@ -23,41 +23,23 @@ const FeaturedProjects = () => (
 
       <div className="project screentime">
         <figure className="project__pic phones">
-          <a href="https://play.google.com/store/apps/details?id=com.starry.management" rel="noreferrer" target="_blank">
+          <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">
             <div className="phone">
-              <img src="./images/featured/screentime/screentime1.png" alt=""/>
+              <img src="./images/featured/talkingyak/talkingyak_ss1.png" alt=""/>
             </div>
             <div className="phone">
-              <img src="./images/featured/screentime/screentime3.png" alt=""/>
+              <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
             </div>
             <div className="phone">
-              <img src="./images/featured/screentime/screentime4.png" alt=""/>
+              <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
             </div>
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://play.google.com/store/apps/details?id=com.starry.management" rel="noreferrer" target="_blank">ScreenTime
-              2.0</a>
+            <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
           </div>
-          <p>Starry Station feature that provided users with the ability to easily filter content, pause the internet,
-            and even
-            create custom rules for blocking apps like Facebook and Twitter right from their phones.</p>
-        </figcaption>
-      </div>
-
-      <div className="project interventions">
-        <figure className="project__pic">
-          <a href="https://interventions.design/" rel="noreferrer" target="_blank">
-            <img src="./images/featured/interventions/interventions.png" alt=""/>
-          </a>
-        </figure>
-        <figcaption className="project__caption">
-          <div className="project__name">
-            <a href="https://interventions.design/" rel="noreferrer" target="_blank">Interventions</a>
-          </div>
-          <p>Interactive marketing website for Northeastern's first annual student-led design conference,
-            Interventions.</p>
+          <p>Talking Yak is an English learning technology specifically created for Hindi and Tamil speakers.</p>
         </figcaption>
       </div>
     </div>

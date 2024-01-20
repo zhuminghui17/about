@@ -4,27 +4,23 @@ import "./footer.scss"
 const socialData = [
   {
     "title": "email",
-    "url": "mailto:brittany.chiang@gmail.com"
+    "url": "mailto:kavin@varnan.me"
   },
   {
     "title": "twitter",
-    "url": "https://twitter.com/bchiang7"
+    "url": "https://twitter.com/skvarnan"
   },
   {
-    "title": "instagram",
-    "url": "https://instagram.com/bchiang7"
-  },
-  {
-    "title": "codepen",
-    "url": "http://codepen.io/bchiang7"
+    "title": "stackoverflow",
+    "url": "https://stackoverflow.com/users/1452884/kavin-varnan"
   },
   {
     "title": "github",
-    "url": "https://github.com/bchiang7"
+    "url": "https://github.com/skavinvarnan"
   },
   {
     "title": "linkedin",
-    "url": "https://www.linkedin.com/in/bchiang7"
+    "url": "https://www.linkedin.com/in/kavin-varnan-08083229/"
   },
 ]
 
