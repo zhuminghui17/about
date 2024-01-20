@@ -11,7 +11,7 @@ import Experience from "../components/experience/experience";
 import FeaturedProjects from "../components/featured-projects/featured-projects";
 import OtherProjects from "../components/other-projects/other-projects";
 import Footer from "../components/footer/footer";
-import Scroll from "../components/Scroll";
+import Scroll from "../components/scroll";
 
 const IndexPage = () => (
   <>
