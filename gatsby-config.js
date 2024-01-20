@@ -5,6 +5,9 @@ module.exports = {
     author: `Kavin Varnan`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     `gatsby-plugin-sass`,
   ],
