@@ -31,13 +31,11 @@ const socialData = [
 const Footer = () => (
   <footer className="footer">
     <div className="footer__copyright">
-      <div className="top">
-        <span>Designed &amp; Developed by</span>
-      </div>
-      <div className="bottom">
-        <span>Brittany Chiang</span>
-        <img className="emoji" src="./images/emojis/rockon.png" alt="emoji"/>
-          <span>2018</span>
+      <div className="bottom credits">
+        <small>
+          Theme by
+          <a href="https://github.com/bchiang7/bchiang7.github.io" rel="noreferrer" target="_blank"> Brittany Chiang</a>
+        </small>
       </div>
     </div>
     <div className="footer__links">
@@ -45,7 +43,6 @@ const Footer = () => (
         socialData.map((social) => (
           <a href={social.url} target="_blank" rel="noreferrer" title="{{link.title}}">
             <span className="text">{social.title}</span>
-            <img src="./images/social/{{link.title}}.svg" alt={social.title}/>
           </a>
         ))
       }

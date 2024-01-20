@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Intro from "../components/intro/intro";
 import Switch from "../components/switch/switch";
@@ -12,11 +11,13 @@ import Experience from "../components/experience/experience";
 import FeaturedProjects from "../components/featured-projects/featured-projects";
 import OtherProjects from "../components/other-projects/other-projects";
 import Footer from "../components/footer/footer";
+import Scroll from "../components/Scroll";
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    {/*<Switch />*/}
+  <>
+    <Scroll />
+    <Seo/>
+    <Switch />
     <Intro />
     <Background />
     <Skills />
@@ -24,9 +25,7 @@ const IndexPage = () => (
     <FeaturedProjects />
     <OtherProjects />
     <Footer />
-  </Layout>
+  </>
 )
-
-export const Head = () => <Seo title="Home" />
 
 export default IndexPage

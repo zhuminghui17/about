@@ -11,10 +11,27 @@ const introData = {
   email: "brittany.chiang@gmail.com",
   mailTo: "mailto:brittany.chiang@gmail.com",
 };
-const Intro = () => (
-  <header className="intro">
+const Intro = () => {
+  const [isHovering, setIsHovering] = React.useState(false);
+  const onMouseOver = event => {
+    setIsHovering(true);
+  };
+  const onMouseOut = event => {
+    setIsHovering(false);
+  };
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsHovering(true);
+      setTimeout(() => {
+        setIsHovering(false);
+      }, 2000);
+    }, 1000);
+  }, []);
+
+  return <header className="intro">
     <h1 className="intro__hello">{introData.title}
-      <span className="emoji wave-hand animated"></span>
+      <span className={isHovering ? "emoji wave-hand animated wave" : "emoji wave-hand animated"} onMouseOver={onMouseOver} onMouseOut={onMouseOut}></span>
     </h1>
 
     <h2 className="intro__tagline">{introData.beforeName}
@@ -31,6 +48,6 @@ const Intro = () => (
     </span>
     </h3>
   </header>
-)
+};
 
 export default Intro
