@@ -23,10 +23,17 @@ const socialData = [
     "url": "https://www.linkedin.com/in/kavin-varnan-08083229/"
   },
 ]
-
 const Footer = () => (
   <footer className="footer">
     <div className="footer__copyright">
+      <div className="top">
+        <span>Designed &amp; Developed by&nbsp;</span>
+      </div>
+      <div className="bottom">
+        <span>Kavin Varnan</span>
+        <img className="emoji" src="./images/emojis/rockon.png" alt="emoji"/>
+          <span>2024</span>
+      </div>
       <div className="bottom credits">
         <small>
           Theme by

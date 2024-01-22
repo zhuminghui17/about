@@ -63,9 +63,9 @@
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
         transform: translateY(-5px);
-        @include little-desktop {
-          display: none;
-        }
+        //@include little-desktop {
+        //  display: none;
+        //}
       }
       &:hover:after,
       &:focus:after {
@@ -78,9 +78,9 @@
         font-size: 0.9rem;
         display: inline;
         letter-spacing: 1px;
-        @include little-desktop {
-          display: none;
-        }
+        //@include little-desktop {
+        //  display: none;
+        //}
       }
     }
     img {
