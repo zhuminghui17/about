@@ -7,17 +7,15 @@ const FeaturedProjects = () => (
     <div className="section__content">
       <div className="project blistabloc">
         <figure className="project__pic">
-          <a href="https://blistabloc.com/" rel="noreferrer" target="_blank">
-            <img src="./images/featured/blistabloc/blistabloc.png" alt=""/>
+          <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">
+            <img src="./images/featured/passkeynotes/frame.png" alt=""/>
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://blistabloc.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
+            <a href="https://passkeynotes.com/" rel="noreferrer" target="_blank">Passkey Notes</a>
           </div>
-          <p>Custom wordpress theme built with Timber and Woocommerce for blistabloc, the only reactive shoe insert that
-            prevents
-            blisters from forming.</p>
+          <p>A Secure Notes taking app, which syncs data across all your devices and stores all the data with AES-256 encryption</p>
         </figcaption>
       </div>
 
@@ -39,7 +37,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
           </div>
-          <p>Talking Yak is an English learning technology specifically created for Hindi and Tamil speakers.</p>
+          <p>Talking Yak is an English learning app specifically created for Hindi and Tamil speakers.</p>
         </figcaption>
       </div>
     </div>
