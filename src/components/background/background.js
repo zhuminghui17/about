@@ -3,7 +3,7 @@ import * as React from "react"
 
 const backgroundData = {
   title: "Background",
-  part1: "Currently, I serve as the Consulting CTO at ",
+  part1: "Currently, I serve as the Consulting Head of Engineering at ",
   part2: "Talking Yak",
   part2Href: "https://talkingyak.com/",
   part3: " where I lead a team in developing innovative tech solutions.",

@@ -27,7 +27,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__copyright">
       <div className="top">
-        <span>Designed &amp; Developed by&nbsp;</span>
+        <span>Developed by&nbsp;</span>
       </div>
       <div className="bottom">
         <span>Kavin Varnan</span>

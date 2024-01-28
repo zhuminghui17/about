@@ -7,7 +7,7 @@ const experienceData = [
     "company": "Talking Yak",
     "url": "https://talkingyak.com/",
     "time": "September 2019 - Present",
-    "position": "Consulting CTO"
+    "position": "Consulting Head of Engineering"
   },
   {
     "company": "Ather Energy",
@@ -67,7 +67,7 @@ const Experience = () => (
         }
       </div>
 
-      <a href="./kavin-resume.pdf" target="_blank" rel="noreferrer" className="arrow-link">View My Resume</a>
+      <a href="./kavin_varnan_resume.pdf" target="_blank" rel="noreferrer" className="arrow-link">View My Resume</a>
     </div>
   </section>
 )
