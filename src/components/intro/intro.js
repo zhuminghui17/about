@@ -5,11 +5,11 @@ import "./intro.scss"
 const introData = {
   title: "Hello! ",
   beforeName: "I'm ",
-  name: "Kavin Varnan",
-  afterName: ", an expert in top-tier mobile/web app architecture & robust backend servers.",
+  name: "Matt Zhu",
+  afterName: ", a software engineer with experience in full stack web development and mobile development.",
   contact: "Get in touch ",
-  email: "kavin@varnan.me",
-  mailTo: "mailto:kavin@varnan.me",
+  email: "mz223@duke.edu",
+  mailTo: "mailto:mz223@duke.edu",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
