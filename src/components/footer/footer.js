@@ -4,23 +4,23 @@ import "./footer.scss"
 const socialData = [
   {
     "title": "email",
-    "url": "mailto:kavin@varnan.me"
+    "url": "mailto:mz223@duke.edu"
   },
-  {
-    "title": "twitter",
-    "url": "https://twitter.com/skvarnan"
-  },
-  {
-    "title": "stackoverflow",
-    "url": "https://stackoverflow.com/users/1452884/kavin-varnan"
-  },
+  // {
+  //   "title": "twitter",
+  //   "url": "https://twitter.com/skvarnan"
+  // },
+  // {
+  //   "title": "stackoverflow",
+  //   "url": "https://stackoverflow.com/users/1452884/kavin-varnan"
+  // },
   {
     "title": "github",
-    "url": "https://github.com/skavinvarnan"
+    "url": "https://github.com/zhuminghui17"
   },
   {
     "title": "linkedin",
-    "url": "https://www.linkedin.com/in/kavin-varnan-08083229/"
+    "url": "https://www.linkedin.com/in/zhuminghui17/"
   },
 ]
 const Footer = () => (
@@ -37,7 +37,7 @@ const Footer = () => (
       <div className="bottom credits">
         <small>
           Theme by
-          <a href="https://github.com/bchiang7/bchiang7.github.io" rel="noreferrer" target="_blank"> Brittany Chiang</a>
+          <a href="https://github.com/bchiang7/bchiang7.github.io" rel="noreferrer" target="_blank"> Brittany Chiang</a> and <a href="https://github.com/bchiang7/bchiang7.github.io" rel="noreferrer" target="_blank"> Kavin Varnan</a>
         </small>
       </div>
     </div>

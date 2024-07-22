@@ -12,7 +12,7 @@ const experienceData = [
   {
     "company": "Christensen Family Center for Innovation",
     "url": "https://cfci.pratt.duke.edu/",
-    "time": "Feb 2019 - September 2019",
+    "time": "May 2023 - Aug 2023",
     "position": "Software Engineer Intern"
   }
 ]
