@@ -15,7 +15,7 @@ const FeaturedProjects = () => (
           <div className="project__name">
             <a href="https://github.com/zhuminghui17/ECE564-AssetMgmt/" rel="noreferrer" target="_blank">Duke Asset Management iOS App</a>
           </div>
-          <p>The Duke Asset Management iOS Mobile App serves as a mobile gateway to MediaBeacon, Duke's extensive digital asset management system. This application enables users to seamlessly view, download, and upload files while ensuring that all modifications are synchronized with the MediaBeacon web server. Designed for convenience and efficiency, this mobile interface is a significant step forward in digital asset management.
+          <p>connects to MediaBeacon, Duke's digital asset system. Users can view, download, and upload files, with changes syncing to the MediaBeacon server. This mobile interface enhances digital asset management efficiency.
 </p>
         </figcaption>
       </div>
