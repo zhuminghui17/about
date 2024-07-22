@@ -30,7 +30,7 @@ const Footer = () => (
         <span>Developed by&nbsp;</span>
       </div>
       <div className="bottom">
-        <span>Kavin Varnan</span>
+        <span>Matt Zhu</span>
         <img className="emoji" src="./images/emojis/rockon.png" alt="emoji"/>
           <span>2024</span>
       </div>
