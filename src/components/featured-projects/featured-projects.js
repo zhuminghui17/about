@@ -20,27 +20,28 @@ const FeaturedProjects = () => (
         </figcaption>
       </div>
 
-      {/* <div className="project screentime">
+      <div className="project screentime">
         <figure className="project__pic phones">
-          <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">
+          <a href="https://github.com/zhuminghui17/full-stack-discussion-board" rel="noreferrer" target="_blank">
             <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss1.png" alt=""/>
+              <img src="./images/featured/full-stack-discussion-board/frame.png" alt=""/>
             </div>
-            <div className="phone">
+            {/* <div className="phone">
               <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
             </div>
             <div className="phone">
               <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
-            </div>
+            </div> */}
           </a>
         </figure>
         <figcaption className="project__caption">
           <div className="project__name">
-            <a href="https://play.google.com/store/apps/details?id=com.talkingyak.app" rel="noreferrer" target="_blank">Talking Yak</a>
+            <a href="https://github.com/zhuminghui17/full-stack-discussion-board" rel="noreferrer" target="_blank">Full Stack Discussion Board</a>
           </div>
-          <p>Talking Yak is an English learning app specifically created for Hindi and Tamil speakers.</p>
+          <p>
+          This discussion board enables professors to manage groups and posts, while both professors and students can create posts and answer questions, all authenticated via Keycloak. Built with Node.js, Express.js, Vue.js, and MongoDB, it features E2E testing in Playwright and a CI/CD pipeline in GitLab.</p>
         </figcaption>
-      </div> */}
+      </div>
     </div>
   </section>
 )
