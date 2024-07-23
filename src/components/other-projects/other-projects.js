@@ -28,8 +28,8 @@ const otherProjectsData = [
     // "I've developed an elegant web application that displays COVID-19 statistics. The website dynamically retrieves data from reputable sources such as John Hopkins University and government websites to ensure accuracy. What sets it apart is the inclusion of a <a class='underline-link' href='https://graphql.org'>GraphQL</a> endpoint, providing a public API for seamless data consumption by anyone interested. Explore the API Documentation for further details. This comprehensive tool not only offers insightful statistics but also demonstrates a commitment to transparency and accessibility in sharing crucial information about the pandemic. <br> <a class='small' href='https://github.com/COVID19-SARS-CoV-2/web-covid-api'>👨🏻‍💻API Documentation👨🏻‍💻</a>",
     "used": [
       {"thing": "C++"},
-      // {"thing": "Docker"},
-      // {"thing": "MongoDB"},
+      {"thing": "Dijkstra’s"},
+      {"thing": "A*"},
       // {"thing": "GraphQL"},
       // {"thing": "Redis"},
       // {"thing": "Digital Ocean"},
@@ -38,6 +38,20 @@ const otherProjectsData = [
       // {"thing": "React"},
     ]
   },
+  {
+    "name": "Kaggle: IBM Employee Attrition Classification",
+    "url": "https://github.com/zhuminghui17/IBM-Employee-Attrition-Classification",
+    "description": "* Performed exploratory data analysis (EDA) and feature engineering to identify and handle imbalanced data issues,\n* Applied multiple balanced ML algorithms (e.g., Balanced Random Forest) to predict employee attrition rate, ensembled with Voting Classifier,\n* Produced a robust F1 score of 75%, ranking top 25% in Kaggle Competition",
+    "used": [
+        {"thing": "Python"},
+        {"thing": "Pandas"},
+        {"thing": "NumPy"},
+        {"thing": "Scikit-learn"},
+        {"thing": "Matplotlib"},
+        {"thing": "Seaborn"}
+    ]
+},
+
   // {
   //   "name": "CrossPlatform AES",
   //   "url": "https://github.com/skavinvarnan/Cross-Platform-AES",
