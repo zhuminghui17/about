@@ -1,30 +1,53 @@
 @import "src/scss/globals";
+
 .experience {
   .jobs {
     margin-bottom: 100px;
   }
+  
   .job {
     margin-bottom: 25px;
+    
     .time-place {
       display: flex;
       justify-content: space-between;
+      
       @include mobile {
         display: block;
       }
     }
+    
     &__company {
       font-weight: 700;
     }
+    
     &__time {
       font-size: 0.9rem;
       font-family: 'Inconsolata', monospace;
+      
+      @include mobile {
+        font-size: 0.8rem;
+      }
+    }
+    
+    &__description {
+      font-size: 0.7rem; /* Smaller font size for job descriptions */
+      list-style-type: disc;
+      padding-left: 20px;
+      
+      li {
+        margin-bottom: 0.3em;
+      }
+      
       @include mobile {
         font-size: 0.8rem;
       }
     }
   }
+  
   .arrow-link {
     font-size: 1.25rem;
+    
     &:after {
       width: 20px;
       height: 20px;

@@ -20,18 +20,10 @@ const FeaturedProjects = () => (
         </figcaption>
       </div>
 
-      <div className="project screentime">
-        <figure className="project__pic phones">
+      <div className="project">
+        <figure className="project__pic">
           <a href="https://github.com/zhuminghui17/full-stack-discussion-board" rel="noreferrer" target="_blank">
-            <div className="phone">
-              <img src="./images/featured/full-stack-discussion-board/frame.png" alt=""/>
-            </div>
-            {/* <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss2.png" alt=""/>
-            </div>
-            <div className="phone">
-              <img src="./images/featured/talkingyak/talkingyak_ss3.png" alt=""/>
-            </div> */}
+            <img src="./images/featured/full-stack-discussion-board/overview.png" alt=""/>
           </a>
         </figure>
         <figcaption className="project__caption">
@@ -39,7 +31,7 @@ const FeaturedProjects = () => (
             <a href="https://github.com/zhuminghui17/full-stack-discussion-board" rel="noreferrer" target="_blank">Full Stack Discussion Board</a>
           </div>
           <p>
-          This discussion board enables professors to manage groups and posts, while both professors and students can create posts and answer questions, all authenticated via Keycloak. Built with Node.js, Express.js, Vue.js, and MongoDB, it features E2E testing in Playwright and a CI/CD pipeline in GitLab.</p>
+          enables professors to manage groups and posts, while both professors and students can create posts and answer questions, all authenticated via Keycloak. Built with Node.js, Express.js, Vue.js, and MongoDB, it features E2E testing in Playwright and a CI/CD pipeline in GitLab.</p>
         </figcaption>
       </div>
     </div>
