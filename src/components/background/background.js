@@ -1,8 +1,5 @@
 import * as React from "react"
 
-
-// test
-
 const backgroundData = {
   title: "Background",
   part1: "I recently graduated from ",
