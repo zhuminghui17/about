@@ -3,6 +3,16 @@ import "./experience.scss"
 
 const experienceData = [
   {
+    "company": "Bragr, Inc.",
+    "url": "https://www.bragr.net/",
+    "time": "Aug 2024 - Present",
+    "position": "Software Engineer Intern",
+    "location": "Denver, CO / Remote",
+    "description": [
+      "Work with Python, Django, JavaScript, React, and Microsoft Azure cloud services."
+    ]
+  },
+  {
     "company": "Duke University",
     "url": "https://duke.edu/",
     "time": "Oct – Dec 2023",
@@ -47,9 +57,12 @@ const Experience = () => (
                   <a href={data.url} target="_blank" rel="noreferrer">{data.company}</a>
                 </div>
                 <div className="job__time">{data.time}</div>
-                {/* <div className="job__location">{data.location}</div> */}
               </div>
-              <div className="job__position">{data.position}</div>
+              <div className="time-place">
+                <div className="job__position">{data.position}</div>
+                <div className="job__time">{data.location}</div>
+              </div>
+
               <ul className="job__description">
                 {
                   data.description.map((item, i) => <li key={i}>{item}</li>)
