@@ -6,7 +6,7 @@ const backgroundData = {
   part2: "Duke University",
   part2Href: "https://duke.edu/",
   part3: " with an MS degree in Computer Science and Economics. Currently I work as a Software Engineer Intern at Bragr, where I'm responsible for full stack development and AI engineering.",
-  line2: "My experience spans full-stack web development, mobile app development, cloud computing, and AI/ML. I have a strong foundation in multiple programming languages and frameworks. I'm actively looking for software engineer roles in the US!",
+  line2: "My experience spans full-stack web development, mobile app development, cloud computing, and AI/ML. I have a strong foundation in multiple programming languages and frameworks. I'm actively looking for full-time software engineer roles in the US!",
   line3Part2: "",
   line3Part3: "",
   line3Part3Href: "",

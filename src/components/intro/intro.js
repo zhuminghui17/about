@@ -6,7 +6,7 @@ const introData = {
   title: "Hello! ",
   beforeName: "I'm ",
   name: "Matt Zhu",
-  afterName: ", a software engineer passionate about building impactful web and mobile applications that solve real-world problems.",
+  afterName: ", a software engineer focused on building impactful web and mobile applications that solve real-world problems.",
   contact: "Get in touch ",
   email: "mz223@duke.edu",
   mailTo: "mailto:mz223@duke.edu",

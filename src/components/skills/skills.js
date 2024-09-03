@@ -3,9 +3,9 @@ import "./skills.scss"
 
 const skillsData = {
   "languagesTitle": "Languages",
-  "languages": ["Python", "JavaScript", "Java", "C/C++", "Swift", "Dart", "SQL", "HTML", "CSS"],
+  "languages": ["Python", "JavaScript", "Java", "C/C++/C#", "Swift", "Dart", "SQL", "HTML", "CSS"],
   "frameworksTitle": "Frameworks",
-  "frameworks": ["Express.js", "Flask", "Vue.js", "React.js", "Bootstrap", "UIKit", "SwiftUI"],
+  "frameworks": ["Django", "Flask", "Express.js", "React.js", "Vue.js", "Bootstrap", "UIKit", "SwiftUI"],
   "technologiesTitle": "Technologies",
   "technologies": ["Node.js", "REST APIs", "MongoDB", "MySQL", "SQLite", "PostgreSQL", "Firebase", "Figma"],
   "devOpsTitle": "DevOps",

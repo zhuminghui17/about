@@ -4,12 +4,12 @@ import "./experience.scss"
 const experienceData = [
   {
     "company": "Bragr, Inc.",
-    "url": "https://www.bragr.net/",
+    "url": "https://www.bragr.com/",
     "time": "Aug 2024 - Present",
     "position": "Software Engineer Intern",
     "location": "Denver, CO / Remote",
     "description": [
-      "Work with Python, Django, JavaScript, React, and Microsoft Azure cloud services."
+      "Worked with Python/Django, JavaScript/React, Docker, and Microsoft Azure cloud services."
     ]
   },
   {
@@ -19,11 +19,7 @@ const experienceData = [
     "position": "Software Engineer Intern",
     "location": "Durham, NC",
     "description": [
-      "Pinpointed the need for an iOS mobile application at Duke's MediaBeacon, a cloud-based file management system previously limited to web access; utilized Swift to architect an MVP from 0 to 1, enabling mobile access to 4M+ digital assets, leading to a 60%+ improvement in workflow efficiency, and a projected $10K+ annual cost saving by avoiding extra software subscriptions",
-      "API Integration: Integrated MediaBeacon's REST APIs, and implemented 20+ features including search, preview, and metadata, successfully fulfilling the client’s comprehensive functionality requirements",
-      "UI Design: Crafted an intuitive UI with SwiftUI and MVVM design pattern for code maintainability and testability",
-      "Quality Assurance: Performed unit testings with XCTest framework, achieving a notable 95% code coverage",
-      "Agile: Shipped high-quality product in 3 sprints under SDLC principle, used Notion to manage a 3-developer team"
+      "Worked with Swift, SwiftUI, and REST APIs to deliver an iOS mobile app MVP."
     ]
   },
   {
@@ -33,12 +29,8 @@ const experienceData = [
     "position": "Software Engineer Intern",
     "location": "Durham, NC",
     "description": [
-      "Collaborated with clients to outline product scope; initialized, developed, tested, and deployed 2 mobile app MVPs for clients in 1) education, engaging 1K+ students in PE education; and 2) healthcare, providing medical advice to a niche patient group",
-      "Cross-Platform: Crafted 10+ core features with Dart and Flutter, utilized Firebase for NoSQL storage; created UI in Figma",
-      "Cloud Services: Deployed 2 scheduled functions on GCP, automated database update, saving 20% in manual update time",
-      "Performance Tuning: Reduced database queries, improving response times by 10%+ for smoother user interactions",
-      "UX Testing: Drove TestFlight beta testing and 3 rounds of user interviews, improved UX for a 25% boost in user satisfaction",
-      "Agile: Engaged in 6 Agile product-design sprints with customer discovery, prototyping, interviews, and post-sprint review"
+      "Worked with Flutter, Firebase, GCP, and Figma to ship 2 cross-platform mobile app MVPs.",
+      
     ]
   }
 ]
@@ -63,11 +55,18 @@ const Experience = () => (
                 <div className="job__time">{data.location}</div>
               </div>
 
-              <ul className="job__description">
+              <div className="jd">
+
+                <div className="job-description"> {data.description} </div>
+              
+              </div>
+                
+
+              {/* <ul className="job__description">
                 {
                   data.description.map((item, i) => <li key={i}>{item}</li>)
                 }
-              </ul>
+              </ul> */}
             </div>
           ))
         }

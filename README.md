@@ -1,10 +1,17 @@
-# Personal Website
+# Portfolio
 
-This repo is a clone of [Brittany Chiang's personal website](https://github.com/bchiang7/bchiang7.github.io). However this is not a fork, and I've made extensive modifications.
+https://minghui.space/
 
-This project was originally written in Jekyll and Gulp by Brittany Chiang. I have converted the entire project to Gatsby, while retaining the original design.
+This portfolio is built with Gatsby, a framework based on React/JavaScript.
+
+## Notes
+* Planning to add a new section to showcase all my ongoing side projects related to maps.
+
 
 ## Getting Started
 
 1.  `npm install`
 2.  `npm run develop`
+
+
+Credit to [Brittany Chiang](https://brittanychiang.com/) for the original design and concept, and [Kavin Varnan](https://kavin.varnan.me/) for modifications.
