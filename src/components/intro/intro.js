@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./intro.scss";
-import avatar from "../../img/avatar_old.png"; // Make sure to have the avatar image at this path
+import avatar from "../../img/avatar.png"; // Make sure to have the avatar image at this path
 
 const introData = {
   title: "Hello! ",
