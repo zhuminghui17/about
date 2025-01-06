@@ -2,12 +2,22 @@ import * as React from "react"
 import "./experience.scss"
 
 const experienceData = [
+    {
+    "company": "Vertice AI, Inc.",
+    "url": "https://verticeanalytics.ai/",
+    "time": "Sept 2024 - Present",
+    "position": "Software Engineer",
+    "location": "Remote",
+    "description": [
+      "TypeScript, React, Material UI, Express, Python, Postgres/SQL, AWS (RDS, ECR, ECS, IAM, Cognito, etc.)"
+    ]
+  },
   {
     "company": "Bragr, Inc.",
     "url": "https://www.bragr.com/",
-    "time": "Aug 2024 - Present",
+    "time": "Aug 2024 - Sept 2024",
     "position": "Software Engineer Intern",
-    "location": "Denver, CO / Remote",
+    "location": "Remote",
     "description": [
       "Worked with Python/Django, JavaScript/React, Docker, and Microsoft Azure cloud services."
     ]
