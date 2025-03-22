@@ -7,19 +7,9 @@ const experienceData = [
     "url": "https://verticeanalytics.ai/",
     "time": "Sept 2024 - Present",
     "position": "Software Engineer",
-    "location": "Remote",
+    "location": "Remote, US",
     "description": [
-      "TypeScript, React, Material UI, Express, Python, Postgres/SQL, AWS (RDS, ECR, ECS, IAM, Cognito, etc.)"
-    ]
-  },
-  {
-    "company": "Bragr, Inc.",
-    "url": "https://www.bragr.com/",
-    "time": "Aug 2024 - Sept 2024",
-    "position": "Software Engineer Intern",
-    "location": "Remote",
-    "description": [
-      "Worked with Python/Django, JavaScript/React, Docker, and Microsoft Azure cloud services."
+      "TypeScript, React, Material UI, Express, Python, Postgres/SQL, AWS (ECR, ECS, RDS, etc.)"
     ]
   },
   {
@@ -40,7 +30,6 @@ const experienceData = [
     "location": "Durham, NC",
     "description": [
       "Worked with Flutter, Firebase, GCP, and Figma to ship 2 cross-platform mobile app MVPs.",
-      
     ]
   }
 ]
@@ -64,19 +53,9 @@ const Experience = () => (
                 <div className="job__position">{data.position}</div>
                 <div className="job__time">{data.location}</div>
               </div>
-
               <div className="jd">
-
                 <div className="job-description"> {data.description} </div>
-              
               </div>
-                
-
-              {/* <ul className="job__description">
-                {
-                  data.description.map((item, i) => <li key={i}>{item}</li>)
-                }
-              </ul> */}
             </div>
           ))
         }
