@@ -1,17 +1,19 @@
 import * as React from "react"
-
 const backgroundData = {
   title: "Background",
-  part1: "I recently graduated from ",
-  part2: "Duke University",
-  part2Href: "https://duke.edu/",
-  part3: " with an MS degree in Computer Science and Economics. Currently I work as a Software Engineer at Vertice AI, Inc. I have delivered impactful product features across the full engineering stack, including data engineering, analytics, backend and frontend development.",
-  line2: "My experience spans full-stack web development, mobile app development, cloud computing, and AI/ML. I have a strong foundation in multiple programming languages and frameworks.",
-  line3Part2: "",
-  line3Part3: "",
-  line3Part3Href: "",
-  line3Part4: ".",
+  part1: "I'm currently a Software Engineer at ",
+  part2: "Vertice AI",
+  part2Href: "https://verticeanalytics.ai/",
+  part3: ", a fast-growing fintech startup that delivers consumable AI to drive member growth for community financial institutions. Previously, I graduated from ",
+  part4: "Duke University",
+  part4Href: "https://duke.edu/",
+  part5: " with an MS degree in Computer Science and Economics in 2024.",
+  
+  line2: "Utilizing my dual background in fintech, I have touched on every aspect of software engineering, spanning data engineering, analytics, AI/ML, database management, backend, and frontend development. Since day one, I have delivered innovative and impactful features that help scale our solution and drive business success.",
+  
+  line3: "Outside of work, I always love exploring new experiences — from discovering new travel destinations and trying different ice cream flavors from Ben & Jerry's, to keeping up with the latest tech trends or AI products. You'll also find me capturing stunning sunset photos or cheering for Duke basketball teams!"
 };
+
 const Background = () => (
   <section className="section background">
     <div className="section__title">{backgroundData.title}</div>
@@ -20,14 +22,14 @@ const Background = () => (
         {backgroundData.part1}
         <a className="underline-link" href={backgroundData.part2Href} target="_blank" rel="noreferrer">{backgroundData.part2}</a>
         {backgroundData.part3}
+        <a className="underline-link" href={backgroundData.part4Href} target="_blank" rel="noreferrer">{backgroundData.part4}</a>
+        {backgroundData.part5}
       </p>
       <p>
         {backgroundData.line2}
       </p>
       <p>
-        <strong>{backgroundData.line3Part1}</strong>{backgroundData.line3Part2}
-        <a className="underline-link" href={backgroundData.line3Part3Href} target="_blank" rel="noreferrer">{backgroundData.line3Part3}</a>
-        {backgroundData.line3Part4}
+        {backgroundData.line3}
       </p>
     </div>
   </section>
