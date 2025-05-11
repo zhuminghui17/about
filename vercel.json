@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/til",
+      "destination": "https://zhuminghui17.github.io/til",
+      "permanent": false
+    },
+    {
+      "source": "/til/:path*",
+      "destination": "https://zhuminghui17.github.io/til/:path*",
+      "permanent": false
+    }
+  ]
+}
